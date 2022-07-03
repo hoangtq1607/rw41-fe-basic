@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="col-1"><button class="btn btn-success btn-add">Add</button></div>
+
+        <div class="row add-area mt-3" style="display: none;">
+            <div class="col-3">
+                <input type="text" class="form-control" name="name" id="txt-name">
+            </div>
+            <div class="col-1"><button class="btn btn-success" id="btn-ok">OK</button></div>
+        </div>
+
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="table-data">
+                <tr>
+                    <td>1</td>
+                    <td>Nguyen Van A</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger btn-delete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nguyen Van B</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger btn-delete">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nguyen Van C</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger btn-delete">Delete</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <!--     
+    <button class="btn btn-danger">My button</button>
+    <button class="btn btn-danger">My button</button>
+    <button class="btn btn-danger">My button</button> -->
+
+    <!-- <script src="./js/main.js"></script> -->
+    <script src="./js/main-jquery.js"></script>
+</body>
+
+</html>

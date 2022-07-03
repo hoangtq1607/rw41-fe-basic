@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        table.beautiful-table {
+            border: solid black 1px;
+            border-collapse: collapse;
+        }
+
+        .beautiful-table td,
+        .beautiful-table th {
+            border: solid black 1px;
+            padding: 3px 10px;
+        }
+
+        .beautiful-table tr:nth-child(2n+3) {
+            /* odd <=> 2n+1 */
+            background-color: bisque;
+        }
+
+        .beautiful-table tr:nth-child(2n+4) {
+            background-color: aliceblue;
+        }
+
+        .custom-style {
+
+            position: absolute;
+            bottom: 50px;
+            right: 30px;
+        }
+
+        .relative-box {
+
+            width: 500px;
+            height: 300px;
+            border: solid black 1px;
+            position: relative;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <hr>
+
+    <div class="row">
+        <div class="col">
+            <table class="table table-primary table-striped table-hover">
+                <tr>
+                    <th colspan="2">Bảng điểm lớp 9B</th>
+                    <th rowspan="2">Toán</th>
+                    <th rowspan="2">Lý</th>
+                    <th rowspan="2">Hoá</th>
+                </tr>
+                <tr>
+                    <th>STT</th>
+                    <th>Họ tên</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Trần Đức Anh</td>
+                    <td>8.0</td>
+                    <td>5.5</td>
+                    <td>7.75</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Kiều Thị Thu Hằng</td>
+                    <td>8.0</td>
+                    <td>5.5</td>
+                    <td>7.75</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Vương Thị Lê Na</td>
+                    <td>8.0</td>
+                    <td>5.5</td>
+                    <td>7.75</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="4">Điểm trung bình cả lớp</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col">
+
+
+            <h3>Danh sách học sinh</h3>
+            <table class="table table-secondary table-striped">
+                <tr>
+                    <th rowspan="2">STT</th>
+                    <th rowspan="2">Họ Tên</th>
+                    <th colspan="2">Giới tính</th>
+                    <th rowspan="2">Chức Vụ</th>
+                </tr>
+                <tr>
+                    <th>Nam</th>
+                    <th>Nữ</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Trần Đức Anh</td>
+                    <td>X</td>
+                    <td></td>
+                    <td>Lớp trưởng</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Trần Đức Anh</td>
+                    <td>X</td>
+                    <td></td>
+                    <td>Lớp trưởng</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Trần Đức Anh</td>
+                    <td>X</td>
+                    <td></td>
+                    <td>Lớp trưởng</td>
+                </tr>
+            </table>
+
+
+        </div>
+        <div class="col">
+
+            <h3>Danh sách học sinh</h3>
+
+            <table class="table table-success">
+                <tr>
+                    <th>STT</th>
+                    <th>Họ Tên</th>
+                    <th>GVHD</th>
+                    <th>Lịch gặp</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Nguyễn Lê Thu Trang</td>
+                    <td rowspan="3">Th.S Hồ Sỹ Tuy Đức</td>
+                    <td rowspan="3">08/03/2018</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nguyễn Thị Diễm</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Phạm Thị Hồng Đào</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

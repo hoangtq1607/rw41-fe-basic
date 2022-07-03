@@ -1,0 +1,17 @@
+.custom-style {
+    font-size: 40px;
+    color: rgba(255, 0, 0);
+    background-color: rgba(118, 181, 197, 0.2);
+    border: solid black 1px;
+    padding: 5px;
+}
+
+#custom-id {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
